@@ -27,7 +27,7 @@ class Index extends Controller
     	//备案等信息
     	$copyright = "©2017 127mi 计网络网站ZK1501 冷晶川";
     	$beian = "京ICP证xxxxx号 京公网安备xxxxxxxxxx号";
-    	$beian_url = "http://beian.com";
+    	$beian_url = "http://";
     	$this->assign('copyright', $copyright);
     	$this->assign('beian', $beian);
     	$this->assign('beian_url', $beian_url);

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:78:"/home/lxx/lamp/apps/002class/htdocs/../application/index/view/index/index.html";i:1490512617;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:78:"/home/lxx/lamp/apps/002class/htdocs/../application/index/view/index/index.html";i:1490517849;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -63,7 +63,7 @@
 	        <dd><a href="/index/index/zy_resources">资源分享</a></dd>
 	        <dd><a href="/index/index/zy_others">其他</a></dd>
 	  </li>
-		<li class="layui-nav-item" style="text-align: center;margin-left: 8px;"><span>登录</span><span>&nbsp;|&nbsp;</span><span>注册</span>
+		<li class="layui-nav-item" style="text-align: center;margin-left: 8px;float: right;"><span>登录</span><span>&nbsp;|&nbsp;</span><span>注册</span>
 		<dl class="layui-nav-child">
 	        <dd><a id="btn_index_login">登录</a></dd>
 	        <dd><a id="btn_index_singin">注册</a></dd>
@@ -109,7 +109,7 @@
 		  </div>
 		</fieldset>
 		<fieldset class="layui-elem-field grid__col grid__col--12-of-12">
-		  <legend><span>yonghushuj<img src="/static/index/images/svg/li_new.svg" alt="new" style="height: 1.8em"></span></legend>
+		  <legend><span>行业动态<img src="/static/index/images/svg/li_new.svg" alt="new" style="height: 1.8em"></span></legend>
 		  <div class="layui-field-box">
 		  <div style="width: 70%;display: inline-block;">
 		    <li><span style="color: red">*</span>留守儿童指教活动<span style="color: rgba(102,102,102,.7);padding-left: 16px">2017-16-12</span></li>
@@ -128,17 +128,17 @@
 <fieldset class="layui-elem-field" style="padding-top: 20px">
   <legend style="font-size: 1.2em;padding-left: 0">班级荣誉</legend>
   <div class="layui-field-box">
-    <div class="grid__col--1-of-4 grid__col--m-1-of-3 grid__col--s-1-of-2 grid__col center">
+    <div class="grid__col--1-of-4 grid__col--m-1-of-2 grid__col--s-1-of-2 grid__col center">
         <img class="imagessize" style="background:url(/static/index/images/classimages/00222.png);background-size:100%;background-position:center;" alt="">
         <div>获得 没有证书</div>
     </div>
-    <div class="grid__col--1-of-4 grid__col--m-1-of-3 grid__col--s-1-of-2 grid__col center">
+    <div class="grid__col--1-of-4 grid__col--m-1-of-2 grid__col--s-1-of-2 grid__col center">
         <img class="imagessize" style="background:url(/static/index/images/classimages/00222.png)" alt="">
     </div>
-    <div class="grid__col--1-of-4 grid__col--m-1-of-3 grid__col--s-1-of-2 grid__col center">
+    <div class="grid__col--1-of-4 grid__col--m-1-of-2 grid__col--s-1-of-2 grid__col center">
         <img class="imagessize" style="background:url(/static/index/images/classimages/00222.png)" alt="">
     </div>
-    <div class="grid__col--1-of-4 grid__col--m-1-of-3 grid__col--s-1-of-2 grid__col center">
+    <div class="grid__col--1-of-4 grid__col--m-1-of-2 grid__col--s-1-of-2 grid__col center">
         <img class="imagessize" style="background:url(/static/index/images/classimages/00222.png)" alt="">
     </div>
   </div>

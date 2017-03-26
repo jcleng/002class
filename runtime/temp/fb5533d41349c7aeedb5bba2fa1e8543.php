@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:93:"/home/lxx/lamp/apps/002class/htdocs/../application/index/view/index/bj_professional_news.html";i:1489829215;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:93:"/home/lxx/lamp/apps/002class/htdocs/../application/index/view/index/bj_professional_news.html";i:1490517085;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,7 +44,7 @@
 	        <dd><a href="/index/index/zy_resources">资源分享</a></dd>
 	        <dd><a href="/index/index/zy_others">其他</a></dd>
 	  </li>
-		<li class="layui-nav-item" style="text-align: center;margin-left: 8px;"><span>登录</span><span>&nbsp;|&nbsp;</span><span>注册</span>
+	<li class="layui-nav-item" style="text-align: center;margin-left: 8px;float: right;"><span>登录</span><span>&nbsp;|&nbsp;</span><span>注册</span>
 		<dl class="layui-nav-child">
 	        <dd><a id="btn_index_login">登录</a></dd>
 	        <dd><a id="btn_index_singin">注册</a></dd>
