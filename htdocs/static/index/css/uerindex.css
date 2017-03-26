@@ -1,0 +1,45 @@
+<style>
+  .container {
+      margin-right: 10%;
+      margin-left: 10%
+    }
+  @media screen and (max-width: 700px) {
+    .container {
+    margin-right: 0;
+    margin-left: 0
+    }
+  }
+	#logo {
+		width: 40px;
+	}
+	.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+  	background-position:center;
+  	background-size:cover;
+  }
+  .layui-elem-field legend {
+  	font-size: 14px;
+  }
+  .layui-form {
+  	margin-top: 16px;
+  }
+  .layui-input-block {
+  	margin-right: 46px;
+  }
+  .layui-nav {
+    border-radius:0px;
+  }
+  .layui-btn {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .layui-elem-field {
+    padding-left: 0
+  }
+  </style>
