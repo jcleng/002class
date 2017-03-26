@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:93:"/home/lxx/lamp/apps/002class/htdocs/../application/index/view/index/bj_professional_news.html";i:1489829215;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -55,12 +56,12 @@
  <!-- 头部2 -->
 <div class="container">
 <!-- 板块 -->
-</div>	
+</div>
 <!-- 板块2 -->
 <!-- 尾部1 -->
 <div style="text-align: center;margin-top: 120px;margin-bottom: 20px">
-		<div>{$copyright}</div>
-		<a href="{$beian_url}"><div><img src="/static/index/images/beianbgs.png" alt="备案" style="height: 1.6em;padding-right: .3em;">{$beian}</div></a>
+		<div><?php echo $copyright; ?></div>
+		<a href="<?php echo $beian_url; ?>"><div><img src="/static/index/images/beianbgs.png" alt="备案" style="height: 1.6em;padding-right: .3em;"><?php echo $beian; ?></div></a>
 </div>
 <!-- 尾部2 -->
 <script src="/static/index/js/jquery.min.js"></script>

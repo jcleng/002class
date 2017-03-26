@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:78:"/home/lxx/lamp/apps/002class/htdocs/../application/index/view/index/index.html";i:1490512617;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -75,9 +76,9 @@
  <!-- Swiper -->
  <div class="swiper-container">
 	 <div class="swiper-wrapper">
-	 {volist name="slide_background" id="data" }
-	   <div class="swiper-slide" style="background-image: url({$data});"></div>
-	 {/volist}
+	 <?php if(is_array($slide_background) || $slide_background instanceof \think\Collection): $i = 0; $__LIST__ = $slide_background;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?>
+	   <div class="swiper-slide" style="background-image: url(<?php echo $data; ?>);"></div>
+	 <?php endforeach; endif; else: echo "" ;endif; ?>
 	  </div>
      <!-- Add Pagination -->
      <div class="swiper-pagination"></div>
@@ -145,8 +146,8 @@
 </div>
 <!-- 尾部1 -->
 <div style="text-align: center;margin-top: 120px;margin-bottom: 20px">
-		<div>{$copyright}</div>
-		<a href="{$beian_url}"><div><img src="/static/index/images/beianbgs.png" alt="备案" style="height: 1.6em;padding-right: .3em;">{$beian}</div></a>
+		<div><?php echo $copyright; ?></div>
+		<a href="<?php echo $beian_url; ?>"><div><img src="/static/index/images/beianbgs.png" alt="备案" style="height: 1.6em;padding-right: .3em;"><?php echo $beian; ?></div></a>
 </div>
 <!-- 尾部2 -->
 <script src="/static/index/js/jquery.min.js"></script>

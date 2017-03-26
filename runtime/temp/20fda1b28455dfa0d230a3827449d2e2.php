@@ -1,0 +1,155 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:84:"/home/lxx/lamp/apps/002class/htdocs/../application/index/view/index/bj_contacts.html";i:1489828997;}*/ ?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>计网络网站班级网站</title>
+  <link rel="stylesheet" href="/static/index/layui/css/layui.css">
+  <link rel="stylesheet" href="/static/index/css/grid.css">
+  <link rel="stylesheet" href="/static/index/css/swiper-3.4.2.min.css">
+  <link rel="stylesheet" href="/static/index/css/uerindex.css">
+  <style>
+  	.container {
+  		margin-right: 10%;
+  		margin-left: 10%
+  	}
+  @media screen and (max-width: 700px) {
+	  .container {
+	  	margin-right: 0;
+	  	margin-left: 0
+		  }
+	  .layui-btn {
+	  	margin-left: 10px;
+	  }
+  }
+  @media screen and (max-width: 1280px) {
+	  .layui-table {
+	  	display: none;
+	  }
+  }
+  @media screen and (min-width: 1280px) {
+	  .layui-collapse {
+	  	display: none;
+	  }
+  }
+  </style>
+</head>
+<body>
+ <!-- 头部1 -->
+<ul class="layui-nav" lay-filter="">
+<div class="container">
+	<a href="/index/index/index"><img id="logo" src="/static/index/images/icon.png" alt="logo"></a>
+	  <li class="layui-nav-item">
+	      <a href="javascript:;">班级首页</a>
+	      <dl class="layui-nav-child"> <!-- 二级菜单 -->
+	        <dd><a href="/index/index/bj_professional_news">专业行业动态</a></dd>
+	        <dd><a href="/index/index/bj_class_news">班级动态</a></dd>
+	        <dd><a href="/index/index/bj_contacts">班级通信录</a></dd>
+	        <dd><a href="/index/index/bj_photos">班级与个人相册</a></dd>
+	        <dd><a href="/index/index/bj_stars">班级明星</a></dd>
+	        <dd><a href="/index/index/bj_honor">班级荣誉</a></dd>
+	      </dl>
+	    </li>
+	  <li class="layui-nav-item">
+	    <a href="javascript:;">资源板块</a>
+	    <dl class="layui-nav-child"> <!-- 二级菜单 -->
+	        <dd><a href="/index/index/zy_resources">资源分享</a></dd>
+	        <dd><a href="/index/index/zy_others">其他</a></dd>
+	  </li>
+		<li class="layui-nav-item" style="text-align: center;margin-left: 8px;"><span>登录</span><span>&nbsp;|&nbsp;</span><span>注册</span>
+		<dl class="layui-nav-child">
+	        <dd><a id="btn_index_login">登录</a></dd>
+	        <dd><a id="btn_index_singin">注册</a></dd>
+	    </dl>
+		</li>
+</div>
+</ul>
+
+ <!-- 头部2 -->
+<div class="container">
+<!-- 板块 -->
+
+<div>
+	<button class="layui-btn" onclick="javascript:window.location.href='/index/index/edit_contacts'">
+	  <i class="layui-icon">&#xe608;</i>我要添加
+	</button>
+	<button class="layui-btn">
+	  <i class="layui-icon">&#xe642;</i>我要修改
+	</button>
+	<button class="layui-btn">
+	  <i class="layui-icon">&#xe61d;</i>导出EXCEL
+	</button>
+</div>
+
+<table class="layui-table" lay-skin="line">
+  <colgroup>
+    <col width="120">
+    <col width="200">
+    <col>
+  </colgroup>
+  <thead>
+    <tr>
+      <th>姓名</th>
+      <th>性别</th>
+      <th>出生</th>
+      <th>学号</th>
+      <th>电话</th>
+      <th>家庭住址</th>
+      <th>身份证</th>
+    </tr> 
+  </thead>
+  <tbody>
+    <tr>
+      <td>贤心</td>
+      <td>男</td>
+      <td>2016-11-29</td>
+      <td>2015585677</td>
+      <td>18323972277</td>
+      <td>重庆垫江重庆垫江重庆垫江</td>
+      <td>5224578568858745854</td>
+    </tr>
+  </tbody>
+</table>
+<div class="layui-collapse">
+  <div class="layui-colla-item">
+    <h2 class="layui-colla-title">贤心</h2>
+    <div class="layui-colla-content">
+		    <div class="grid__col grid__col--1-of-2">性别</div>
+		    <div class="grid__col grid__col--1-of-2"><span style="color:rgba(102,102,102,.7);padding-left: .8em">男</span></div>
+		    <div class="grid__col grid__col--1-of-2">出生</div>
+		    <div class="grid__col grid__col--1-of-2"><span style="color:rgba(102,102,102,.7);padding-left: .8em">2016-11-29</span></div>
+		    <div class="grid__col grid__col--1-of-2">学号</div>
+		    <div class="grid__col grid__col--1-of-2"><span style="color:rgba(102,102,102,.7);padding-left: .8em">2016-11-29</span></div>
+		    <div class="grid__col grid__col--1-of-2">电话</div>
+		    <div class="grid__col grid__col--1-of-2"><span style="color:rgba(102,102,102,.7);padding-left: .8em">2016-11-29</span></div>
+		    <div class="grid__col grid__col--1-of-2">家庭住址</div>
+		    <div class="grid__col grid__col--1-of-2"><span style="color:rgba(102,102,102,.7);padding-left: .8em">2016-11-29</span></div>
+		    <div class="grid__col grid__col--1-of-2">身份证</div>
+		    <div class="grid__col grid__col--1-of-2"><span style="color:rgba(102,102,102,.7);padding-left: .8em">2016-11-29</span></div>
+    </div>
+  </div>
+</div>
+<!-- 板块2 -->
+</div>
+<!-- 尾部1 -->
+<div style="text-align: center;margin-top: 120px;margin-bottom: 20px">
+		<div><?php echo $copyright; ?></div>
+		<a href="<?php echo $beian_url; ?>"><div><img src="/static/index/images/beianbgs.png" alt="备案" style="height: 1.6em;padding-right: .3em;"><?php echo $beian; ?></div></a>
+</div>
+<!-- 尾部2 -->
+<script src="/static/index/js/jquery.min.js"></script>
+<script src="/static/index/js/swiper-3.4.2.jquery.min.js"></script>
+<script src="/static/index/js/jquery.md5.js"></script>
+<script src="/static/index/js/jquery.cookie.js"></script>
+<script src="/static/index/layui/layui.js"></script>
+<script src="/static/index/js/login.js"></script>
+<script>
+ // 头部使用
+ layui.use('element', function(){
+   var element = layui.element();
+ });
+</script> 
+  
+</body>
+</html>
